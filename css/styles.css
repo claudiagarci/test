@@ -1,0 +1,21 @@
+body{
+    background-color: #f0d2f84b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: #ccc2f84b;
+    
+}
+a{
+    text-decoration-line: none;
+    color: inherit;
+    background-color: bisque;
+
+}
+a:hover{
+    color: coral;
+    background-color:rgb(36, 37, 33);
+}
+li:hover{
+    font-weight: bolder;
+}
