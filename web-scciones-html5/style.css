@@ -9,8 +9,8 @@ body{
 }
 header{
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     height: 80px;
     position: fixed;
     top: 0;
@@ -21,33 +21,20 @@ header{
     
 }
 #aside1{
-    padding-top: 15px;
-    padding-bottom: 15px;
+
     position: absolute;
-    left: 0;
-    top: 80px;
+    left: 80px;
+    top: 0px;
     bottom:0;
     background-color: lightgrey;
-    width: 20%;
+    width: 40%;
     display: inline-block;
     vertical-align: top;
     overflow: auto;
     border-right-style: solid;
     
 }
-#aside2{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    position: absolute;
-    right: 0;
-    top: 80px;
-    bottom:0;
-    background-color: lightgrey;
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
-    overflow: auto;
-    border-left-style: solid;
+
     
 }
 main{
@@ -78,3 +65,56 @@ footer{
    
 
 }
+aside > a{
+        display: block;
+        background-color: burlywood;
+        border-bottom: coral;
+        border-style: solid;
+        border-bottom-width: 1px;
+        padding-bottom: 10px;
+}
+nav > a{
+    display: inline-block;
+    width: 151px;
+
+}
+nav > a, aside > a{
+
+}
+vav>p>a{
+    border-top-style: solid;
+    border-top-color: darkkhaki;
+}
+
+aside > a: :visited, nav > a:visited{
+    color: blue;
+
+}
+main{
+    padding-top: 2vh;
+    padding-right: 2%;
+    padding-bottom: 1vh;
+    padding-left: 2%;
+    
+    padding: 2vh 2% 1vh 2%;
+}
+header{
+    border-style: solid;
+    border-width: 5px 1px 2px;
+
+}
+header image{
+    height:40px ;
+
+}
+#video_oculto {
+    
+}
+aside >a:active, nav > a:active{
+    border-color: darkgray;
+}
+aside > a:active{
+    border-color: crimson;
+}
+
+    
