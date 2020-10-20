@@ -1,0 +1,62 @@
+/* Para todos los tamaños*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Version de movil*/
+
+@media (max-width 480px)
+body{
+    background-color: lightyellow;
+    
+}
+nav, main {
+    position: absolute;
+}
+main{
+    background-color: lightsteelblue;
+    height: calc(100vh -80px);
+    top: 0;
+    width:100%;
+    overflow: auto;
+
+}
+nav{
+    background-color: peachpuff;
+   bottom: 0;
+    height: 75px;
+    text-align: center;
+    width: 100%;    
+}
+nav > a >img{
+    height: 100%;
+
+}
+nav > a{
+    height: 100%;
+}
+nav > a >p{
+    display: none;
+/*version ordenador*/
+@media (max-width 480px){
+    nav{
+        top:0;
+        height: 50px;
+        width: 100%;
+    }
+    main{
+        bottom: 0;
+        height: calc(100vh -50px);
+    }
+    nav > a >img{
+        height: 100%;
+    
+    }
+    nav > a{
+        height: 100%;
+    }
+    nav > a >p{
+        display: inline;
+        margin-left: 5px;
+}
+
